@@ -94,12 +94,16 @@ appServer.get('/mostrarNombre/:nombre',
     }
 );
 
-appServer.get('/mostrarRecientes',
+appServer.get('/mostrarRecientes/:fecha',
     (req, res)=>{
         let listaRecientes = [];
+        let fecha=req.params.fecha;
 
         for(var i = 0; i<listaJuegos.length;i++){
-            if((2020 - listaJuegos[i].año_de_lanzamiento)<=1){
+            
+            console.log('no entro' + fecha);
+            if(listaJuegos[i].año_de_lanzamiento>=fecha){
+                console.log('entro' + fecha);
                 listaRecientes.push(listaJuegos[i]);
             }
         }

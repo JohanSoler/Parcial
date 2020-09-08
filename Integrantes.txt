@@ -1,3 +1,10 @@
--Johan Nicolas Soler Hernandez 
--Freddy Santiago Patarroyo
--Danny Jersson Ochoa Peralta
+
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+|-Johan Nicolas Soler Hernandez| 
+|-Freddy Santiago Patarroyo    |
+|-Danny Jersson Ochoa Peralta  |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+
+Git: https://github.com/JohanSoler/Parcial.git
+
+El documento esta dentro del repositorio
