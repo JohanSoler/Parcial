@@ -1,0 +1,27 @@
+{
+  "name": "parcial",
+  "version": "1.0.0",
+  "description": "Parcial primer corte",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohanSoler/Parcial.git"
+  },
+  "keywords": [
+    "Videojuegos",
+    "tienda"
+  ],
+  "author": "Johan Soler, Danny Ochoa, Freddy Patarroyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohanSoler/Parcial/issues"
+  },
+  "homepage": "https://github.com/JohanSoler/Parcial#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
